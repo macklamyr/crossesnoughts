@@ -4,6 +4,7 @@ def show():
     print("   | 0 | 1 | 2 |")
     print("----------------")
     for i, row in enumerate(pole):
+        print(i, row)
         row_info: str = " | ".join(row)
         print(f"{i}  | {row_info} |")
         print("----------------")
